@@ -23,7 +23,8 @@
          "widgets":[
             {
                "basic":{
-                  "title":"Sites"
+                  "title":"Sites",
+                  "subtitle":"Gesamt"
                },
                "source":{
                   "endpoint":"wp-umbrella",
@@ -35,7 +36,8 @@
             {
                "background":"success",
                "basic":{
-                  "title":"Online"
+                  "title":"Online",
+                  "subtitle":"Erreichbar"
                },
                "source":{
                   "endpoint":"wp-umbrella",
@@ -45,8 +47,10 @@
                }
             },
             {
+               "background":"danger",
                "basic":{
-                  "title":"Offline"
+                  "title":"Offline",
+                  "subtitle":"Nicht erreichbar"
                },
                "source":{
                   "endpoint":"wp-umbrella",
@@ -56,19 +60,10 @@
                }
             },
             {
+               "background":"warning",
                "basic":{
-                  "title":"PHP Fehler"
-               },
-               "source":{
-                  "endpoint":"wp-umbrella",
-                  "mapping":{
-                     "value":"summary.php_errors"
-                  }
-               }
-            },
-            {
-               "basic":{
-                  "title":"Updates"
+                  "title":"Updates",
+                  "subtitle":"Ausstehend"
                },
                "source":{
                   "endpoint":"wp-umbrella",
@@ -78,10 +73,23 @@
                }
             },
             {
-               "width":4,
+               "background":"fuzy",
+               "basic":{
+                  "title":"PHP Fehler",
+                  "subtitle":"Gesamt"
+               },
+               "source":{
+                  "endpoint":"wp-umbrella",
+                  "mapping":{
+                     "value":"summary.php_errors"
+                  }
+               }
+            },
+            {
+               "width":5,
                "height":4,
                "table":{
-                  "title":"Alle Sites",
+                  "title":"Sites",
                   "columns":[
                      {
                         "id":"indicator",
@@ -103,13 +111,13 @@
                         "title":"Status"
                      },
                      {
-                        "id":"php_errors",
-                        "title":"PHP Fehler",
+                        "id":"updates",
+                        "title":"Updates",
                         "align":"right"
                      },
                      {
-                        "id":"updates",
-                        "title":"Updates",
+                        "id":"php_errors",
+                        "title":"PHP Fehler",
                         "align":"right"
                      }
                   ]
@@ -121,8 +129,8 @@
                      "data[].name":"sites[].name",
                      "data[].url":"sites[].url",
                      "data[].status":"sites[].status",
-                     "data[].php_errors":"sites[].php_errors",
-                     "data[].updates":"sites[].updates"
+                     "data[].updates":"sites[].updates",
+                     "data[].php_errors":"sites[].php_errors"
                   }
                }
             }
