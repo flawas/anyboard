@@ -3,7 +3,7 @@
         "total": 9,
         "online": 9,
         "offline": 0,
-        "php_errors": 472,
+        "php_errors": 462,
         "updates": 0
     },
     "sites": [
@@ -17,18 +17,18 @@
         },
         {
             "indicator": "warning",
-            "name": "Rigischränzer Wäggis",
-            "url": "rigischraenzer.ch",
-            "status": "Online",
-            "php_errors": 94,
-            "updates": 0
-        },
-        {
-            "indicator": "warning",
             "name": "Major Tschamper Fonds",
             "url": "majortschamperfonds.ch",
             "status": "Online",
             "php_errors": 89,
+            "updates": 0
+        },
+        {
+            "indicator": "warning",
+            "name": "Rigischränzer Wäggis",
+            "url": "rigischraenzer.ch",
+            "status": "Online",
+            "php_errors": 84,
             "updates": 0
         },
         {
@@ -80,5 +80,5 @@
             "updates": 0
         }
     ],
-    "generated_at": "2026-03-14T10:21:42+00:00"
+    "generated_at": "2026-03-14T10:30:42+00:00"
 }
