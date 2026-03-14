@@ -1,11 +1,65 @@
 {
-  "summary": {
-    "total": 0,
-    "online": 0,
-    "offline": 0,
-    "updates": 0,
-    "php_errors": 0
-  },
-  "sites": [],
-  "generated_at": "1970-01-01T00:00:00+00:00"
+    "summary": {
+        "total": 9,
+        "online": 8,
+        "offline": 1,
+        "php_errors": 472
+    },
+    "sites": [
+        {
+            "name": "LIS-Band",
+            "url": "lis-band.ch",
+            "status": "Offline",
+            "php_errors": 56
+        },
+        {
+            "name": "HC Weggis-Küssnacht",
+            "url": "hcwk.ch",
+            "status": "Online",
+            "php_errors": 142
+        },
+        {
+            "name": "Rigischränzer Wäggis",
+            "url": "rigischraenzer.ch",
+            "status": "Online",
+            "php_errors": 94
+        },
+        {
+            "name": "Major Tschamper Fonds",
+            "url": "majortschamperfonds.ch",
+            "status": "Online",
+            "php_errors": 89
+        },
+        {
+            "name": "Landjugend Riviera",
+            "url": "lj-riviera.ch",
+            "status": "Online",
+            "php_errors": 83
+        },
+        {
+            "name": "Trachtenstadt Zug",
+            "url": "trachtenstadtzug.ch",
+            "status": "Online",
+            "php_errors": 7
+        },
+        {
+            "name": "Flavio Waser",
+            "url": "flaviowaser.ch",
+            "status": "Online",
+            "php_errors": 1
+        },
+        {
+            "name": "Bollitomiso",
+            "url": "www.bollitomisto.ch",
+            "status": "Online",
+            "php_errors": 0
+        },
+        {
+            "name": "Hofladen Oberfuren",
+            "url": "www.hofladen-oberfuren.ch",
+            "status": "Online",
+            "php_errors": 0
+        }
+    ],
+    "generated_at": "2026-03-14T09:26:38+00:00"
 }
