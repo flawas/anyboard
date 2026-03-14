@@ -47,6 +47,12 @@ if ($raw === null) {
 
 $sites = $raw['data'] ?? [];
 
+// DEBUG: log all keys of first site to find update field names
+if (!empty($sites)) {
+    fwrite(STDERR, "DEBUG first site keys: " . implode(', ', array_keys($sites[0])) . "\n");
+    fwrite(STDERR, "DEBUG first site raw: " . json_encode($sites[0]) . "\n");
+}
+
 // --- Daten aufbereiten ---
 
 $totalOnline  = 0;
