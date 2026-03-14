@@ -74,6 +74,9 @@ foreach ($sites as $site) {
     $phpErrors     = (int)($site['count_php_issues'] ?? 0);
     $totalErrors  += $phpErrors;
 
+    $updates       = (int)($site['count_updates_available'] ?? 0);
+    $totalUpdates += $updates;
+
     if ($indicator === null && $phpErrors > 0) {
         $indicator = 'warning';
     }
@@ -86,6 +89,7 @@ foreach ($sites as $site) {
         'url'        => $displayUrl,
         'status'     => $status,
         'php_errors' => $phpErrors,
+        'updates'    => $updates,
     ];
 }
 
@@ -108,6 +112,7 @@ $output = [
         'online'     => $totalOnline,
         'offline'    => $totalOffline,
         'php_errors' => $totalErrors,
+        'updates'    => $totalUpdates,
     ],
     'sites'        => $sitesOutput,
     'generated_at' => date('c'),

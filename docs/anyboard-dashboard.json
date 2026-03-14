@@ -7,7 +7,7 @@
          "endpoints":[
             {
                "id":"wp-umbrella",
-               "url":"https://raw.githubusercontent.com/flawas/Anyboard/refs/heads/main/docs/wp-umbrella-data.json"
+               "url":"https://flawas.github.io/anyboard/wp-umbrella-data.json"
             }
          ]
       }
@@ -67,6 +67,17 @@
                }
             },
             {
+               "basic":{
+                  "title":"Updates"
+               },
+               "source":{
+                  "endpoint":"wp-umbrella",
+                  "mapping":{
+                     "value":"summary.updates"
+                  }
+               }
+            },
+            {
                "width":4,
                "height":4,
                "table":{
@@ -95,6 +106,11 @@
                         "id":"php_errors",
                         "title":"PHP Fehler",
                         "align":"right"
+                     },
+                     {
+                        "id":"updates",
+                        "title":"Updates",
+                        "align":"right"
                      }
                   ]
                },
@@ -105,7 +121,8 @@
                      "data[].name":"sites[].name",
                      "data[].url":"sites[].url",
                      "data[].status":"sites[].status",
-                     "data[].php_errors":"sites[].php_errors"
+                     "data[].php_errors":"sites[].php_errors",
+                     "data[].updates":"sites[].updates"
                   }
                }
             }
