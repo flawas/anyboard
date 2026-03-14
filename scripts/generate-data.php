@@ -62,19 +62,26 @@ foreach ($sites as $site) {
     $isDown = (bool)($site['is_currently_down'] ?? false);
 
     if ($isDown) {
-        $status = 'Offline';
+        $status    = 'Offline';
+        $indicator = 'danger';
         $totalOffline++;
     } else {
-        $status = 'Online';
+        $status   = 'Online';
         $totalOnline++;
+        $indicator = null;
     }
 
     $phpErrors     = (int)($site['count_php_issues'] ?? 0);
     $totalErrors  += $phpErrors;
 
+    if ($indicator === null && $phpErrors > 0) {
+        $indicator = 'warning';
+    }
+
     $displayUrl = preg_replace('#^https?://#', '', rtrim($url, '/'));
 
     $sitesOutput[] = [
+        'indicator'  => $indicator,
         'name'       => $name,
         'url'        => $displayUrl,
         'status'     => $status,

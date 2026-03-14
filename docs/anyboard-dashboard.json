@@ -1,94 +1,115 @@
 {
-  "name": "WP Umbrella",
-  "sources": [
-    {
-      "auth": "none",
-      "name": "WP Umbrella",
-      "endpoints": [
-        {
-          "id": "wp-umbrella",
-          "url": "https://flawas.github.io/anyboard/wp-umbrella-data.json"
-        }
-      ]
-    }
-  ],
-  "dashboards": [
-    {
-      "name": "WP Umbrella",
-      "color": "active",
-      "source": {
-        "endpoint": "wp-umbrella",
-        "refresh": 300
-      },
-      "widgets": [
-        {
-          "basic": {
-            "title": "Sites"
-          },
-          "source": {
-            "endpoint": "wp-umbrella",
-            "mapping": {
-              "value": "summary.total"
+   "name":"WP Umbrella",
+   "sources":[
+      {
+         "auth":"none",
+         "name":"WP Umbrella",
+         "endpoints":[
+            {
+               "id":"wp-umbrella",
+               "url":"https://flawas.github.io/anyboard/wp-umbrella-data.json"
             }
-          }
-        },
-        {
-          "background": "success",
-          "basic": {
-            "title": "Online"
-          },
-          "source": {
-            "endpoint": "wp-umbrella",
-            "mapping": {
-              "value": "summary.online"
+         ]
+      }
+   ],
+   "dashboards":[
+      {
+         "name":"WP Umbrella",
+         "color":"active",
+         "source":{
+            "endpoint":"wp-umbrella",
+            "refresh":300
+         },
+         "widgets":[
+            {
+               "basic":{
+                  "title":"Sites"
+               },
+               "source":{
+                  "endpoint":"wp-umbrella",
+                  "mapping":{
+                     "value":"summary.total"
+                  }
+               }
+            },
+            {
+               "background":"success",
+               "basic":{
+                  "title":"Online"
+               },
+               "source":{
+                  "endpoint":"wp-umbrella",
+                  "mapping":{
+                     "value":"summary.online"
+                  }
+               }
+            },
+            {
+               "basic":{
+                  "title":"Offline"
+               },
+               "source":{
+                  "endpoint":"wp-umbrella",
+                  "mapping":{
+                     "value":"summary.offline"
+                  }
+               }
+            },
+            {
+               "basic":{
+                  "title":"PHP Fehler"
+               },
+               "source":{
+                  "endpoint":"wp-umbrella",
+                  "mapping":{
+                     "value":"summary.php_errors"
+                  }
+               }
+            },
+            {
+               "width":4,
+               "height":4,
+               "table":{
+                  "title":"Alle Sites",
+                  "columns":[
+                     {
+                        "id":"indicator",
+                        "type":"indicator"
+                     },
+                     {
+                        "id":"name",
+                        "title":"Site",
+                        "flex":2,
+                        "style":"bold"
+                     },
+                     {
+                        "id":"url",
+                        "title":"URL",
+                        "flex":2
+                     },
+                     {
+                        "id":"status",
+                        "title":"Status"
+                     },
+                     {
+                        "id":"php_errors",
+                        "title":"PHP Fehler",
+                        "align":"right"
+                     }
+                  ]
+               },
+               "source":{
+                  "endpoint":"wp-umbrella",
+                  "mapping":{
+                     "data[].indicator":"sites[].indicator",
+                     "data[].name":"sites[].name",
+                     "data[].url":"sites[].url",
+                     "data[].status":"sites[].status",
+                     "data[].php_errors":"sites[].php_errors"
+                  }
+               }
             }
-          }
-        },
-        {
-          "basic": {
-            "title": "Offline"
-          },
-          "source": {
-            "endpoint": "wp-umbrella",
-            "mapping": {
-              "value": "summary.offline"
-            }
-          }
-        },
-        {
-          "basic": {
-            "title": "PHP Fehler"
-          },
-          "source": {
-            "endpoint": "wp-umbrella",
-            "mapping": {
-              "value": "summary.php_errors"
-            }
-          }
-        },
-        {
-          "width": 4,
-          "height": 4,
-          "table": {
-            "title": "Alle Sites",
-            "columns": [
-              { "id": "name",       "title": "Site",      "flex": 2, "style": "bold" },
-              { "id": "url",        "title": "URL",        "flex": 2 },
-              { "id": "status",     "title": "Status" },
-              { "id": "php_errors", "title": "PHP Fehler", "align": "right" }
-            ]
-          },
-          "source": {
-            "endpoint": "wp-umbrella",
-            "mapping": {
-              "data[].name":       "sites[].name",
-              "data[].url":        "sites[].url",
-              "data[].status":     "sites[].status",
-              "data[].php_errors": "sites[].php_errors"
-            }
-          }
-        }
-      ]
-    }
-  ]
+         ]
+      }
+   ]
 }
