@@ -7,7 +7,7 @@
          "endpoints":[
             {
                "id":"wp-umbrella",
-               "url":"https://raw.githubusercontent.com/flawas/anyboard/refs/heads/main/docs/wp-umbrella-data.json"
+               "url":"https://raw.githubusercontent.com/flawas/Anyboard/refs/heads/main/docs/wp-umbrella-data.json"
             }
          ]
       }
