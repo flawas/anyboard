@@ -3,8 +3,8 @@
         "total": 9,
         "online": 9,
         "offline": 0,
-        "php_errors": 462,
-        "updates": 21
+        "php_errors": 463,
+        "updates": 19
     },
     "sites": [
         {
@@ -13,7 +13,7 @@
             "url": "hcwk.ch",
             "status": "Online",
             "php_errors": 142,
-            "updates": 3
+            "updates": 2
         },
         {
             "indicator": "warning",
@@ -28,8 +28,8 @@
             "name": "Rigischränzer Wäggis",
             "url": "rigischraenzer.ch",
             "status": "Online",
-            "php_errors": 84,
-            "updates": 3
+            "php_errors": 85,
+            "updates": 2
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-14T10:52:55+00:00"
+    "generated_at": "2026-03-14T11:21:36+00:00"
 }
