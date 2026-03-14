@@ -1,0 +1,96 @@
+{
+  "dashboards": [
+    {
+      "title": "WP Umbrella",
+      "refresh": 300,
+      "widgets": [
+        {
+          "type": "value",
+          "title": "Sites",
+          "col": 0,
+          "row": 0,
+          "width": 1,
+          "height": 1,
+          "data": {
+            "url": "https://DEIN-USERNAME.github.io/DEIN-REPO/wp-umbrella-data.json",
+            "path": "summary.total"
+          }
+        },
+        {
+          "type": "value",
+          "title": "Online",
+          "col": 1,
+          "row": 0,
+          "width": 1,
+          "height": 1,
+          "data": {
+            "url": "https://DEIN-USERNAME.github.io/DEIN-REPO/wp-umbrella-data.json",
+            "path": "summary.online"
+          }
+        },
+        {
+          "type": "value",
+          "title": "Offline",
+          "col": 2,
+          "row": 0,
+          "width": 1,
+          "height": 1,
+          "data": {
+            "url": "https://DEIN-USERNAME.github.io/DEIN-REPO/wp-umbrella-data.json",
+            "path": "summary.offline"
+          },
+          "alert": {
+            "path": "summary.offline",
+            "condition": "gt",
+            "value": 0
+          }
+        },
+        {
+          "type": "value",
+          "title": "Updates",
+          "col": 3,
+          "row": 0,
+          "width": 1,
+          "height": 1,
+          "data": {
+            "url": "https://DEIN-USERNAME.github.io/DEIN-REPO/wp-umbrella-data.json",
+            "path": "summary.updates"
+          }
+        },
+        {
+          "type": "value",
+          "title": "PHP Fehler",
+          "col": 4,
+          "row": 0,
+          "width": 1,
+          "height": 1,
+          "data": {
+            "url": "https://DEIN-USERNAME.github.io/DEIN-REPO/wp-umbrella-data.json",
+            "path": "summary.php_errors"
+          }
+        },
+        {
+          "type": "table",
+          "title": "Alle Sites",
+          "col": 0,
+          "row": 1,
+          "width": 5,
+          "height": 4,
+          "columns": [
+            { "title": "Site",      "path": "name" },
+            { "title": "URL",       "path": "url" },
+            { "title": "Status",    "path": "status" },
+            { "title": "WP",        "path": "wp_version" },
+            { "title": "PHP",       "path": "php_version" },
+            { "title": "Updates",   "path": "updates_count" },
+            { "title": "Fehler",    "path": "php_errors" }
+          ],
+          "data": {
+            "url": "https://DEIN-USERNAME.github.io/DEIN-REPO/wp-umbrella-data.json",
+            "path": "sites"
+          }
+        }
+      ]
+    }
+  ]
+}
