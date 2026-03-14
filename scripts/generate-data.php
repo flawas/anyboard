@@ -47,12 +47,6 @@ if ($raw === null) {
 
 $sites = $raw['data'] ?? [];
 
-// DEBUG: log all keys of first site to find update field names
-if (!empty($sites)) {
-    fwrite(STDERR, "DEBUG first site keys: " . implode(', ', array_keys($sites[0])) . "\n");
-    fwrite(STDERR, "DEBUG first site raw: " . json_encode($sites[0]) . "\n");
-}
-
 // --- Daten aufbereiten ---
 
 $totalOnline  = 0;
@@ -80,7 +74,17 @@ foreach ($sites as $site) {
     $phpErrors     = (int)($site['count_php_issues'] ?? 0);
     $totalErrors  += $phpErrors;
 
-    $updates       = (int)($site['count_updates_available'] ?? 0);
+    $updates = 0;
+    foreach ($site['plugins'] ?? [] as $plugin) {
+        if (!empty($plugin['need_update'])) {
+            $updates++;
+        }
+    }
+    foreach ($site['themes'] ?? [] as $theme) {
+        if (!empty($theme['latest_version']) && !empty($theme['version']) && $theme['latest_version'] !== $theme['version']) {
+            $updates++;
+        }
+    }
     $totalUpdates += $updates;
 
     if ($indicator === null && $phpErrors > 0) {
