@@ -3,7 +3,7 @@
         "total": 9,
         "online": 9,
         "offline": 0,
-        "php_errors": 466,
+        "php_errors": 467,
         "updates": 16
     },
     "sites": [
@@ -28,7 +28,7 @@
             "name": "Rigischränzer Wäggis",
             "url": "rigischraenzer.ch",
             "status": "Online",
-            "php_errors": 85,
+            "php_errors": 86,
             "updates": 3
         },
         {
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-15T17:13:25+00:00"
+    "generated_at": "2026-03-15T17:46:55+00:00"
 }
