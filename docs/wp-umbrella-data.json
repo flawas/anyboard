@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 467,
-        "updates": 17
+        "updates": 15
     },
     "sites": [
         {
@@ -21,7 +21,7 @@
             "url": "majortschamperfonds.ch",
             "status": "Online",
             "php_errors": 89,
-            "updates": 1
+            "updates": 0
         },
         {
             "indicator": "warning",
@@ -53,7 +53,7 @@
             "url": "trachtenstadtzug.ch",
             "status": "Online",
             "php_errors": 7,
-            "updates": 1
+            "updates": 0
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-15T21:57:37+00:00"
+    "generated_at": "2026-03-15T22:37:23+00:00"
 }
