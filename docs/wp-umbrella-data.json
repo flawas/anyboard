@@ -21,7 +21,7 @@
             "url": "majortschamperfonds.ch",
             "status": "Online",
             "php_errors": 89,
-            "updates": 1
+            "updates": 0
         },
         {
             "indicator": "warning",
@@ -29,7 +29,7 @@
             "url": "rigischraenzer.ch",
             "status": "Online",
             "php_errors": 85,
-            "updates": 2
+            "updates": 3
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-15T14:56:52+00:00"
+    "generated_at": "2026-03-15T15:36:38+00:00"
 }
