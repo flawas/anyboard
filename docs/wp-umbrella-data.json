@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 467,
-        "updates": 16
+        "updates": 17
     },
     "sites": [
         {
@@ -21,7 +21,7 @@
             "url": "majortschamperfonds.ch",
             "status": "Online",
             "php_errors": 89,
-            "updates": 0
+            "updates": 1
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-15T19:01:32+00:00"
+    "generated_at": "2026-03-15T19:37:42+00:00"
 }
