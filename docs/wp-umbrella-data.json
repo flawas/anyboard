@@ -3,8 +3,8 @@
         "total": 9,
         "online": 9,
         "offline": 0,
-        "php_errors": 464,
-        "updates": 15
+        "php_errors": 466,
+        "updates": 16
     },
     "sites": [
         {
@@ -12,7 +12,7 @@
             "name": "HC Weggis-Küssnacht",
             "url": "hcwk.ch",
             "status": "Online",
-            "php_errors": 143,
+            "php_errors": 145,
             "updates": 1
         },
         {
@@ -21,7 +21,7 @@
             "url": "majortschamperfonds.ch",
             "status": "Online",
             "php_errors": 89,
-            "updates": 0
+            "updates": 1
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-15T03:25:21+00:00"
+    "generated_at": "2026-03-15T05:18:05+00:00"
 }
