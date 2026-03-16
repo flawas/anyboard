@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 467,
-        "updates": 13
+        "updates": 14
     },
     "sites": [
         {
@@ -69,7 +69,7 @@
             "url": "www.bollitomisto.ch",
             "status": "Online",
             "php_errors": 0,
-            "updates": 2
+            "updates": 3
         },
         {
             "indicator": null,
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-16T14:52:54+00:00"
+    "generated_at": "2026-03-16T16:02:43+00:00"
 }
