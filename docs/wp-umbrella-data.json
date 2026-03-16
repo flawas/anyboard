@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 467,
-        "updates": 14
+        "updates": 13
     },
     "sites": [
         {
@@ -37,7 +37,7 @@
             "url": "lj-riviera.ch",
             "status": "Online",
             "php_errors": 83,
-            "updates": 4
+            "updates": 3
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-16T05:30:48+00:00"
+    "generated_at": "2026-03-16T06:55:31+00:00"
 }
