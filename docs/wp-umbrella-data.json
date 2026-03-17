@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 467,
-        "updates": 20
+        "updates": 21
     },
     "sites": [
         {
@@ -13,7 +13,7 @@
             "url": "hcwk.ch",
             "status": "Online",
             "php_errors": 145,
-            "updates": 1
+            "updates": 2
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 3
         }
     ],
-    "generated_at": "2026-03-17T13:49:24+00:00"
+    "generated_at": "2026-03-17T14:47:18+00:00"
 }
