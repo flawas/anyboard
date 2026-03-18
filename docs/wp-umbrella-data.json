@@ -3,7 +3,7 @@
         "total": 9,
         "online": 9,
         "offline": 0,
-        "php_errors": 467,
+        "php_errors": 471,
         "updates": 15
     },
     "sites": [
@@ -20,7 +20,7 @@
             "name": "Major Tschamper Fonds",
             "url": "majortschamperfonds.ch",
             "status": "Online",
-            "php_errors": 89,
+            "php_errors": 93,
             "updates": 0
         },
         {
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-18T16:15:38+00:00"
+    "generated_at": "2026-03-18T17:31:55+00:00"
 }
