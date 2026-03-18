@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 467,
-        "updates": 16
+        "updates": 15
     },
     "sites": [
         {
@@ -77,8 +77,8 @@
             "url": "www.hofladen-oberfuren.ch",
             "status": "Online",
             "php_errors": 0,
-            "updates": 3
+            "updates": 2
         }
     ],
-    "generated_at": "2026-03-18T06:45:08+00:00"
+    "generated_at": "2026-03-18T07:42:22+00:00"
 }
