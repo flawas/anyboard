@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 467,
-        "updates": 18
+        "updates": 16
     },
     "sites": [
         {
@@ -13,7 +13,7 @@
             "url": "hcwk.ch",
             "status": "Online",
             "php_errors": 145,
-            "updates": 2
+            "updates": 1
         },
         {
             "indicator": "warning",
@@ -29,7 +29,7 @@
             "url": "rigischraenzer.ch",
             "status": "Online",
             "php_errors": 86,
-            "updates": 3
+            "updates": 2
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 3
         }
     ],
-    "generated_at": "2026-03-18T05:47:37+00:00"
+    "generated_at": "2026-03-18T06:45:08+00:00"
 }
