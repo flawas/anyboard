@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 480,
-        "updates": 14
+        "updates": 13
     },
     "sites": [
         {
@@ -37,7 +37,7 @@
             "url": "rigischraenzer.ch",
             "status": "Online",
             "php_errors": 86,
-            "updates": 2
+            "updates": 1
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-20T00:00:57+00:00"
+    "generated_at": "2026-03-20T02:50:54+00:00"
 }
