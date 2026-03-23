@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 480,
-        "updates": 16
+        "updates": 18
     },
     "sites": [
         {
@@ -29,7 +29,7 @@
             "url": "lj-riviera.ch",
             "status": "Online",
             "php_errors": 92,
-            "updates": 3
+            "updates": 4
         },
         {
             "indicator": "warning",
@@ -77,8 +77,8 @@
             "url": "www.hofladen-oberfuren.ch",
             "status": "Online",
             "php_errors": 0,
-            "updates": 2
+            "updates": 3
         }
     ],
-    "generated_at": "2026-03-23T22:47:33+00:00"
+    "generated_at": "2026-03-23T23:18:23+00:00"
 }
