@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 480,
-        "updates": 15
+        "updates": 16
     },
     "sites": [
         {
@@ -45,7 +45,7 @@
             "url": "lis-band.ch",
             "status": "Online",
             "php_errors": 56,
-            "updates": 1
+            "updates": 2
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 2
         }
     ],
-    "generated_at": "2026-03-23T22:00:22+00:00"
+    "generated_at": "2026-03-23T22:47:33+00:00"
 }
