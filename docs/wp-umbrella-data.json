@@ -1,20 +1,12 @@
 {
     "summary": {
         "total": 9,
-        "online": 8,
-        "offline": 1,
+        "online": 9,
+        "offline": 0,
         "php_errors": 480,
         "updates": 17
     },
     "sites": [
-        {
-            "indicator": "danger",
-            "name": "Landjugend Riviera",
-            "url": "lj-riviera.ch",
-            "status": "Offline",
-            "php_errors": 92,
-            "updates": 4
-        },
         {
             "indicator": "warning",
             "name": "HC Weggis-Küssnacht",
@@ -30,6 +22,14 @@
             "status": "Online",
             "php_errors": 93,
             "updates": 0
+        },
+        {
+            "indicator": "warning",
+            "name": "Landjugend Riviera",
+            "url": "lj-riviera.ch",
+            "status": "Online",
+            "php_errors": 92,
+            "updates": 4
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 3
         }
     ],
-    "generated_at": "2026-03-25T03:46:21+00:00"
+    "generated_at": "2026-03-25T05:16:16+00:00"
 }
