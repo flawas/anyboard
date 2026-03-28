@@ -4,7 +4,7 @@
         "online": 9,
         "offline": 0,
         "php_errors": 480,
-        "updates": 17
+        "updates": 18
     },
     "sites": [
         {
@@ -53,7 +53,7 @@
             "url": "trachtenstadtzug.ch",
             "status": "Online",
             "php_errors": 7,
-            "updates": 0
+            "updates": 1
         },
         {
             "indicator": "warning",
@@ -80,5 +80,5 @@
             "updates": 3
         }
     ],
-    "generated_at": "2026-03-28T00:01:49+00:00"
+    "generated_at": "2026-03-28T03:13:12+00:00"
 }
